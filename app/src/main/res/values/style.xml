@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="CustomProgressBar" parent="Widget.AppCompat.ProgressBar.Horizontal">
+    <!-- Цвет основного прогресса -->
+    <item name="android:progressTint">#FF0000</item>
+    <!-- Цвет фона прогресс-бара -->
+    <item name="android:backgroundTint">#E0E0E0</item>
+    <!-- Высота прогресс-бара -->
+    <item name="android:minHeight">10dp</item>
+    <item name="android:maxHeight">10dp</item>
+</style>
+</resources>

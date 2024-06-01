@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:src="@drawable/ic_ellipse_1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/image_2" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/scroll_2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="400dp"
+        android:fontFamily="sans-serif"
+        android:text="Персоналізовані поради"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Програма надає дієві поради, які допоможуть вам
+        підтримувати оптимальний рівень артеріального тиску та  зменшити
+        фактори ризику серцево-судинних захворювань."
+        android:textSize="15sp" />
+
+    <ImageButton
+        android:id="@+id/button_cont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/button_cont"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="@android:color/transparent"/>
+
+
+
+</FrameLayout>

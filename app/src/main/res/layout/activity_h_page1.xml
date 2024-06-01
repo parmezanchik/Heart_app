@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:src="@drawable/ic_ellipse_1" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center|top"
+        android:src="@drawable/topappbar" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="right|top"
+        android:src="@drawable/time_machine" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="577dp"
+        android:layout_gravity="center|bottom"
+        android:src="@drawable/ic_heart" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Виконайте своє перше
+            вимірювання!"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+    <ImageButton
+        android:id="@+id/button_heart"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/button_heart_rate"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="@android:color/transparent"/>
+
+
+    </LinearLayout>
+</FrameLayout>
